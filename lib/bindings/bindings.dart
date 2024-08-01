@@ -4,6 +4,6 @@ import 'package:get/get.dart';
 class Binding implements Bindings {
   @override
   void dependencies() {
-    Get.lazyPut(() => const DiceScreen());
+    Get.lazyPut(() => DiceScreen());
   }
 }
