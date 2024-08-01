@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       initialBinding: Binding(),
-      home: const DiceScreen(),
+      debugShowCheckedModeBanner: false,
+      home:  DiceScreen(),
     );
   }
 }
